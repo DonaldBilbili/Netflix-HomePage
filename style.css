@@ -1,0 +1,115 @@
+.main-div {
+    background-color: rgba(0, 0, 0, 0.937);
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    margin: 0;
+}
+
+.logo {
+    width: 250px;
+}
+
+p { 
+    font-size: 60px;
+    color: aliceblue;
+}   
+
+.shkrimi { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+}
+
+#canvas1{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(5,85,102,1) 44%, rgba(0,212,255,1) 100%);
+    /* transition: 0.5s; */
+  }
+  #canvas2{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(57,5,102,1) 44%, rgba(141,0,255,1) 100%);
+    /* transition: 0.5s; */
+  }
+  #canvas3{
+    background: rgb(36,0,5);
+background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(102,5,15,1) 1%, rgba(255,0,52,1) 100%);
+    /* transition: 0.5s; */
+  }
+  #canvas4{
+    background: rgb(36,0,5);
+    background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(36,102,5,1) 1%, rgba(142,255,0,1) 100%);
+    /* transition: 0.5s; */
+  }
+
+  .canvass{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 150px;
+    display : flex;
+    gap: 20px;
+    
+  }
+
+  button {
+    background-color:  rgba(0, 0, 0, 0.937);
+    border-color: aliceblue;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    opacity: 0.5;
+    margin-top: 50px;
+    transition: 0.5s;
+  }
+
+  button:hover {
+    background-color: aliceblue;
+    border-color: rgba(0, 0, 0, 0.937);
+    color: rgba(0, 0, 0, 0.937);
+    opacity: 1;
+    transform : scale(1.1)
+
+  }
+
+  .butoni {
+    width : 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .ikona {
+    text-align: center;
+  }
+
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.kanvas {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.kanvas:hover {
+    transform: scale(1.1);
+    opacity:1;
+}
+
+.ikona{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.ikona:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
